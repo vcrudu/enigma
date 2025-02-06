@@ -26,7 +26,7 @@ cd <repository_directory>
 ### Creating an Enigma Machine
 You can create an **EnigmaMachine** instance using preconfigured rotors, reflector, and plugboard settings:
 ```python
-from enigma_machine import EnigmaMachine
+from enigma import EnigmaMachine
 
 # Define the settings for the Enigma Machine
 enigma = EnigmaMachine.build_machine(
